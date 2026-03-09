@@ -76,6 +76,12 @@
       margin-bottom: 16px;
     }
 
+    h3 {
+      color: #1b5e20;
+      margin-top: 24px;
+      margin-bottom: 10px;
+    }
+
     p {
       background-color: #ffffff;
       padding: 22px 24px;
@@ -120,6 +126,15 @@
       padding: 12px;
     }
 
+    .pricing-diagram img {
+      width: 560px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      background-color: #ffffff;
+      padding: 12px;
+    }
+
     footer {
       text-align: center;
       margin-top: 26px;
@@ -148,12 +163,12 @@
 
   <h2>Introduction</h2>
   <p>
-    This assignment studies major engineering management and project management concepts by using a practical and analytical approach instead of only a descriptive one. In engineering management, a project is not simply a set of tasks. It is a temporary organized effort that uses limited resources, including labor, money, equipment, information, and time, in order to produce a defined result. Because these resources are limited, project management can be viewed as a decision system in which managers continuously balance trade-offs between competing objectives. A project has a start date, an end date, a measurable objective, and a limited budget, and it must be managed so that the final result is accepted by the customer or stakeholder. This means that successful project management requires more than technical skill alone. It also requires planning, communication, economic judgment, staffing logic, risk awareness, and structured control. In the modern engineering environment described throughout Ranky’s project management materials and the engineering management course, the project manager must think like both an engineer and a business problem solver. The role is therefore interdisciplinary. It combines technical reasoning, organizational coordination, and economic decision making into one integrated system.
+    This assignment studies major engineering management and project management concepts by using a practical and analytical approach instead of only a descriptive one. In engineering management, a project is not simply a set of tasks. It is a temporary organized effort that uses limited resources, including labor, money, equipment, information, and time, in order to produce a defined result. Because these resources are limited, project management can be viewed as a decision system in which managers continuously balance trade-offs between competing objectives. A project has a start date, an end date, a measurable objective, and a limited budget, and it must be managed so that the final result is accepted by the customer or stakeholder. This means that successful project management requires more than technical skill alone. It also requires planning, communication, economic judgment, staffing logic, risk awareness, and structured control. In the modern engineering environment the project manager must think like both an engineer and a business problem solver. The role is therefore interdisciplinary. It combines technical reasoning, organizational coordination, and economic decision making into one integrated system.
   </p>
 
   <h2>Ranky-PM-2: Some Key Project Management Terminology and Solutions</h2>
   <p>
-    A more formal engineering definition of a project is that it is a multivariable optimization problem involving time, cost, and target value or scope. In simple terms, the project manager is always trying to satisfy these variables at the same time even though changing one usually affects the others. If the schedule must be shortened, then extra labor, overtime, or expedited procurement may increase cost. If scope increases, then both time and cost commonly rise as well. If the budget is reduced too far, then either performance, quality, or schedule may suffer. Because of this, project management is not just administrative coordination. It is the structured control of trade-offs. A useful analytical expression is to define the project objective as minimizing a function of time, cost, and scope subject to real limits. This can be shown as: Minimize f(T,C,S), subject to T being less than or equal to the required deadline, C being less than or equal to the approved budget, and S being greater than or equal to the required performance level. This small equation summarizes the logic of engineering project control because it shows that project success is constrained optimization rather than free choice.
+    A more formal engineering definition of a project is that it is a multivariable optimization problem involving time, cost, and target value or scope. In simple terms, the project manager is always trying to satisfy these variables at the same time even though changing one usually affects the others. If the schedule must be shortened, then extra labor, overtime, or expedited procurement may increase cost. If scope increases, then both time and cost commonly rise as well. If the budget is reduced too far, then either performance, quality, or schedule may suffer. Because of this, project management is not just administrative coordination. It is the structured control of trade-offs. A useful analytical expression is to define the project objective as minimizing a function of time, cost, and scope subject to real limits. This relationship can also be expressed using a simple optimization concept. In engineering project management, the goal is to balance time (T), cost (C), and scope or performance (S). The project manager attempts to minimize the overall project impact function f(T, C, S) while satisfying important constraints. The project must finish before the required deadline (T ≤ deadline), the total cost must remain within the approved budget (C ≤ budget), and the final engineering performance must meet or exceed the required technical standard (S ≥ required performance level). In practical terms, this shows that project management is an optimization problem where managers must balance schedule pressure, budget limits, and engineering performance at the same time. For example, in a stormwater infrastructure project at NJ GreenFlow, the team may need to design a drainage or green infrastructure system that reduces runoff while staying within a municipal budget and completing the work before a regulatory deadline or construction season. If the schedule is shortened, additional labor or expedited procurement may increase cost. If the budget is reduced, fewer design alternatives or materials may be available. Because of this, the project manager must continuously balance time, cost, and engineering performance. This small equation summarizes the logic of engineering project control because it shows that project success is constrained optimization rather than free choice.
   </p>
 
   <p class="diagram">
@@ -161,7 +176,7 @@
   </p>
 
   <p>
-    A project management problem should be solved by a repeatable engineering method. First, define the objective in measurable terms. Second, identify the major deliverables. Third, break the work into smaller work packages. Fourth, estimate task durations, labor hours, and material costs. Fifth, assign responsibility and resources. Sixth, establish a baseline schedule and cost plan. Seventh, monitor actual performance. Eighth, compare actual results against the baseline and apply corrective action if needed. This is important because many project failures occur when work begins before the project has been clearly defined. In my own company model, this process would begin with identifying customer needs and turning them into measurable engineering requirements. Then the team would prepare a work breakdown structure, a schedule, a cost estimate, and a simple risk register. Progress would be reviewed weekly so that deviations are caught early rather than after they become expensive. This is how project management becomes defendable as an engineering solution instead of a loose management style.
+    A project management problem should be solved by a repeatable engineering method. First, define the objective in measurable terms. Then, identify the major deliverables. Next, break the work into smaller work packages, and estimate task durations, labor hours, and material costs. Assign responsibility and resources. After this step, establish a baseline schedule and cost plan. Monitor actual performance. Finally, compare actual results against the baseline and apply corrective action if needed. This is important because many project failures occur when work begins before the project has been clearly defined. In the NJ GreenFlow engineering management model, this process would begin with identifying the stormwater management problem that the client or municipality is trying to solve. This may involve flooding complaints, drainage system overload, regulatory compliance requirements, or the need for sustainable infrastructure improvements. The engineering team would then translate these needs into measurable technical objectives such as runoff reduction targets, infiltration capacity improvements, or flood mitigation performance levels. After defining the objectives, the team would prepare a work breakdown structure, schedule, and cost estimate covering hydrologic analysis, drainage modeling, green infrastructure design, permitting coordination, and construction support. Progress would be reviewed weekly so that delays, permit issues, or design conflicts can be addressed early rather than becoming expensive problems later in the project lifecycle.
   </p>
 
   <p class="diagram">
@@ -170,7 +185,7 @@
 
   <h2>Ranky-EM-3: Best Practices for Organizing and Staffing the Project Office and Team</h2>
   <p>
-    Best practice for organizing and staffing a project office begins with understanding that the project manager, functional manager, and project team members do not all have the same role. The project manager integrates the work horizontally across departments. Functional managers provide the technical staff and control how technical work is performed in their area. Team members produce the actual deliverables. The project office should therefore be set up so that responsibilities are clear and not overlapping in a confusing way. A practical engineering project office could include the project manager, a technical lead, cost support, scheduling support, procurement support, and quality support. This type of structure is effective because each major control area has an owner. In my own company model, the project office would be small but clearly defined. The project manager would own coordination, communication, schedule updates, and stakeholder reporting, while discipline specialists would own design content and technical output. This improves accountability and reduces wasted effort caused by unclear authority.
+    Best practice for organizing and staffing a project office begins with understanding that the project manager, functional manager, and project team members do not all have the same role. The project manager integrates the work horizontally across departments. Functional managers provide the technical staff and control how technical work is performed in their area. Team members produce the actual deliverables. The project office should therefore be set up so that responsibilities are clear and not overlapping in a confusing way. A practical engineering project office could include the project manager, a technical lead, cost support, scheduling support, procurement support, and quality support. This type of structure is effective because each major control area has an owner.  At NJ GreenFlow Engineering Management, the project office would be structured around the specific needs of sustainable stormwater infrastructure projects. The project manager would coordinate the overall schedule, stakeholder communication, and budget tracking. A civil or environmental engineering lead would oversee drainage modeling, runoff calculations, and green infrastructure design. Additional roles may include regulatory coordination support for NJDEP compliance, scheduling support for construction phases, and field inspection coordination. This structure ensures that technical, regulatory, and stakeholder responsibilities are clearly defined throughout the project. The project manager would own coordination, communication, schedule updates, and stakeholder reporting, while discipline specialists would own design content and technical output. This improves accountability and reduces wasted effort caused by unclear authority.
   </p>
 
   <p>
@@ -178,7 +193,7 @@
   </p>
 
   <p>
-    Project teams are not easy to design and operate because people bring different work habits, backgrounds, communication styles, and priorities. Some team members are highly analytical, some are field-oriented, and some are administrative. Also, in many matrix-style organizations, the project manager does not fully control staffing because the staff still belong to functional departments. This can create confusion or conflict. Best practice is to begin with clear task definitions, clear lines of responsibility, regular status meetings, and written documentation of deliverables and due dates. Difficult people in project teams should be handled with direct but professional communication, specific performance expectations, and fact-based discussion of schedule or quality impact. In my own company model, I would first clarify the problem in objective terms, then meet with the person privately, then document agreed actions, and only escalate if the problem creates measurable risk to schedule, cost, or team performance. This keeps the focus on project success rather than personal conflict.
+    Project teams are not easy to design and operate because people bring different work habits, backgrounds, communication styles, and priorities. Some team members are highly analytical, some are field-oriented, and some are administrative. Also, in many matrix-style organizations, the project manager does not fully control staffing because the staff still belong to functional departments. This can create confusion or conflict. Best practice is to begin with clear task definitions, clear lines of responsibility, regular status meetings, and written documentation of deliverables and due dates. Difficult people in project teams should be handled with direct but professional communication, specific performance expectations, and fact-based discussion of schedule or quality impact. Regarding the model for NJ Green Flow, I would first clarify the problem in objective terms, then meet with the person privately, then document agreed actions, and only escalate if the problem creates measurable risk to schedule, cost, or team performance. This keeps the focus on project success rather than personal conflict.
   </p>
 
   <h2>Ranky-EM-4: Some Key Concepts and Skills Project Managers Must Understand</h2>
@@ -195,7 +210,7 @@
   </p>
 
   <p>
-    A Work Breakdown Structure, or WBS, is one of the most useful engineering planning tools because it breaks a project into smaller and more manageable parts. Instead of discussing the project as one large objective, the WBS decomposes the work into phases, activities, and work packages. This improves estimating, assignment of responsibility, schedule development, and cost tracking. A simple engineering WBS may begin with planning, continue through design, procurement, implementation, testing, and closeout, and then break each of those areas into smaller tasks. The software does not create the logic on its own. The manager creates the logic by decomposing the work correctly.
+	A Work Breakdown Structure (WBS) is one of the most useful engineering planning tools because it breaks a project into smaller and more manageable parts. Instead of discussing the project as one large objective, the WBS decomposes the work into phases, activities, and work packages. This improves estimating, assignment of responsibility, schedule development, and cost tracking. A stormwater infrastructure project WBS at NJ GreenFlow may begin with phases such as site assessment, hydrologic modeling, concept design, regulatory coordination, detailed engineering design, permitting, construction oversight, and final inspection. Each of these phases is then divided into smaller tasks such as watershed runoff calculations, infiltration analysis, green infrastructure sizing, stormwater permit documentation, and stakeholder review meetings. In practice, NJ GreenFlow would implement the WBS using Monday.com project management software. In Monday.com the WBS is created by first establishing a project board representing the full infrastructure project. The main groups represent the major project phases such as planning, engineering design, permitting, and construction coordination. Each group then contains individual tasks or work packages such as hydrologic analysis, drainage modeling, green infrastructure design, and municipal review coordination. Team members, due dates, dependencies, and progress status can be assigned to each task. This allows the project manager to track progress visually while maintaining clear accountability for each engineering activity. Using a digital WBS system ensures that schedule updates, workload allocation, and progress reporting remain organized and transparent throughout the project lifecycle.
   </p>
 
   <p class="diagram">
@@ -212,67 +227,248 @@
   </p>
 
   <p>
-    Work Breakdown Structure, risk management, stakeholder management, and resource allocation are all closely connected. The WBS defines the work. Risk management identifies what could go wrong in that work. Stakeholder management identifies whose support is needed and who can influence the project. Resource allocation determines whether labor, money, equipment, and materials are available when needed. If one of these areas is weak, the others are affected. For example, a poorly defined WBS makes risk analysis weak because nobody clearly knows what tasks exist. Weak stakeholder involvement can delay approvals. Poor resource allocation causes schedule slippage. In my own company model, risk management would be handled by identifying likely delays, cost uncertainties, vendor risks, weather or site issues, and technical review risks, then assigning an owner and response for each. Stakeholder management would involve regular communication with the client, executives, design staff, vendors, and inspectors. Resource allocation would be reviewed weekly to avoid bottlenecks on critical tasks.
+    Work Breakdown Structure, risk management, stakeholder management, and resource allocation are all closely connected. The WBS defines the work. Risk management identifies what could go wrong in that work. Stakeholder management identifies whose support is needed and who can influence the project. Resource allocation determines whether labor, money, equipment, and materials are available when needed. If one of these areas is weak, the others are affected. For example, a poorly defined WBS makes risk analysis weak because nobody clearly knows what tasks exist. Weak stakeholder involvement can delay approvals. Poor resource allocation causes schedule slippage. In the NJ GreenFlow engineering management model, risk management focuses heavily on environmental and regulatory uncertainties common in stormwater infrastructure projects. These risks may include unexpected soil conditions affecting infiltration systems, delays in municipal permit approvals, inaccurate rainfall modeling assumptions, contractor availability, and extreme weather conditions during construction. Each identified risk is assigned an owner and mitigation plan. For example, if infiltration capacity is uncertain, additional soil testing and infiltration modeling may be scheduled early in the design phase. If regulatory approvals are uncertain, early coordination meetings with municipal engineers and environmental agencies are scheduled. By identifying these risks early, NJ GreenFlow improves schedule reliability and avoids costly redesign or construction delays.
   </p>
 
-  <h2>Ranky-EM-6: Earned Value Management and Other Economic / Financial Calculation Methods</h2>
+<h2>Ranky-EM-6: Earned Value Management and Other Economic / Financial Calculation Methods</h2>
+
+<p>
+Earned Value Management (EVM) is one of the most important analytical tools used in engineering project management because it combines cost, schedule, and performance measurement into one system. Instead of simply reporting whether tasks are finished, EVM evaluates whether the value of completed work matches the amount of money spent and the schedule originally planned. According to the Kerzner project management text, EVM uses three main metrics: the Budgeted Cost of Work Scheduled (BCWS), the Budgeted Cost of Work Performed (BCWP), and the Actual Cost of Work Performed (ACWP).
+</p>
+
+<p>
+BCWS represents the planned value of work scheduled to be completed at a given point in time. BCWP represents the earned value of work that has actually been completed. ACWP represents the real cost spent to perform that work. From these values two important performance indicators are calculated.
+</p>
+
+<p class="equation">
+<b>CPI = BCWP / ACWP</b>
+</p>
+
+<p class="equation">
+<b>SPI = BCWP / BCWS</b>
+</p>
+
+<p>
+If CPI equals one the project is on budget, and if SPI equals one the project is on schedule. Values less than one indicate unfavorable performance conditions that require management attention.
+</p>
+
+<p>
+In the NJ GreenFlow Engineering Management model, EVM would be used to monitor stormwater infrastructure projects such as the installation of pervious pavement systems or the design and implementation of green roof drainage systems. Assume a municipal green infrastructure project has a planned cost of $100,000 for the first project phase. At the halfway point the planned value (BCWS) may be $50,000.
+</p>
+
+<p>
+If the engineering team has completed work valued at $45,000 (BCWP) but has spent $55,000 (ACWP), then the performance indexes are calculated as follows.
+</p>
+
+<p class="equation">
+<b>CPI = 45,000 / 55,000 = 0.82</b>
+</p>
+
+<p class="equation">
+<b>SPI = 45,000 / 50,000 = 0.90</b>
+</p>
+
+<p>
+Because CPI is less than one the project is over budget. Because SPI is less than one the project is slightly behind schedule. Using this analysis the project manager can immediately identify performance issues and adjust staffing levels, procurement strategy, or design workflow in order to bring the project back within acceptable limits.
+</p>
+
+<p class="diagram">
+<img src="ewm_visual.png" alt="Earned Value Management Example">
+</p>
+
+<p>
+Engineering management also requires understanding the Time Value of Money, which recognizes that money available today is worth more than the same amount received in the future because it can generate financial return over time. For example, if NJ GreenFlow invests $20,000 in green infrastructure planning software or stormwater modeling tools and the expected return is five percent annually, the future value after three years can be calculated as follows.
+</p>
+
+<p class="equation">
+<b>Future Value = 20,000 × (1.05³) = $23,153</b>
+</p>
+
+<p>
+This concept allows engineering managers to compare investment alternatives such as purchasing design software, field monitoring equipment, or expanded modeling capabilities.
+</p>
+
+<p>
+Cost analysis is another essential method used in engineering project management. Cost analysis involves identifying and evaluating all costs associated with a project including fixed costs, variable costs, and sunk costs. In stormwater infrastructure projects, fixed costs may include engineering staff salaries and software licensing. Variable costs may include field testing, materials, subcontracted design analysis, and environmental impact studies. Sunk costs are expenses that have already occurred and cannot be recovered.
+</p>
+
+<p>
+Depreciation is the accounting method used to allocate the cost of an asset over its useful life. For example, if NJ GreenFlow purchases $50,000 worth of hydrology modeling equipment expected to last five years, the company may allocate approximately $10,000 per year as depreciation.
+</p>
+
+<p>
+Present worth analysis converts future project benefits into present value so that engineering investment alternatives can be compared fairly. Suppose a stormwater mitigation project generates $40,000 per year in avoided flood damage over five years. Using a five percent discount rate, the present value of these benefits can be calculated to determine whether the project is economically justified.
+</p>
+
+<p>
+Rate of return evaluates the profitability of a project investment. For example, if a $100,000 stormwater infrastructure project generates $130,000 in benefits over its life, the rate of return helps determine whether the investment is economically efficient.
+</p>
+
+<p>
+The Benefit-Cost Ratio compares total benefits to total costs. If a flood mitigation project costs $200,000 but prevents $350,000 in expected flood damage over its life, the benefit-cost ratio equals 1.75, which indicates that the project provides greater benefit than cost.
+</p>
+
+<p>
+Break-even analysis determines the point at which total revenue equals total cost. For example, if NJ GreenFlow develops a stormwater consulting service with fixed operating costs of $60,000 per year and charges municipalities $3,000 per project while the variable cost per project is $1,500, the break-even point determines how many projects are required to cover operating costs.
+</p>
+
+<p>
+Sensitivity and risk analysis evaluates how changes in assumptions affect project outcomes. For stormwater infrastructure design these assumptions may include rainfall intensity, soil infiltration rates, construction cost changes, or regulatory approval timelines.
+</p>
+
+<p>
+Replacement analysis determines when aging infrastructure monitoring equipment or modeling software should be replaced based on maintenance cost and operational performance.
+</p>
+
+<p>
+Capital financing refers to the methods used to fund infrastructure projects including municipal budgets, environmental grants, resilience funding programs, or private investment.
+</p>
+
   <p>
-    Earned Value Management, or EVM, is one of the clearest analytical tools in project management because it compares the value of planned work, the value of completed work, and the actual cost of that completed work. This allows the manager to determine whether the project is behind schedule or over budget in a measurable way. A common set of terms is BCWS for budgeted cost of work scheduled, BCWP for budgeted cost of work performed, and ACWP for actual cost of work performed. The Cost Performance Index is BCWP divided by ACWP, and the Schedule Performance Index is BCWP divided by BCWS. If CPI and SPI are equal to one, the project is performing exactly as planned. If they are less than one, performance is unfavorable. If they are greater than one, performance is favorable. This is valuable because it changes vague status reporting into mathematical performance reporting.
-  </p>
-
-  <p class="diagram">
-    <img src="ewm_visual.png" alt="Earned Value Management Visual">
+	Inflation must also be considered because construction materials, labor costs, and regulatory compliance costs increase over time. If construction costs increase at three percent annually, future project estimates must be adjusted accordingly.
   </p>
 
   <p>
-    Engineering management also uses financial methods to support better decisions. Time Value of Money means that money available today is worth more than the same amount in the future because it can be invested and earn a return. For example, if a company invests $10,000 today at an annual rate of 5 percent for 3 years, the future value becomes 10,000 multiplied by 1.05 raised to the third power, or about $11,576. Present worth works in the opposite direction by discounting future cash flows back to the present. Benefit-Cost Ratio compares total benefits to total costs. If benefits are $150,000 and costs are $100,000, then the ratio is 1.5, which indicates an economically acceptable project. Break-even analysis identifies the quantity at which total revenue equals total cost. If fixed cost is $50,000, selling price is $20 per unit, and variable cost is $10 per unit, then break-even quantity is 50,000 divided by 10, or 5,000 units.
+	After-tax analysis evaluates how taxation affects engineering investments, particularly when purchasing equipment or expanding technical capabilities.
   </p>
 
   <p>
-    These methods are useful in my own company model because engineering decisions should not be based only on technical preference. If one design alternative has a higher initial cost but much lower maintenance cost over its life, then life-cycle costing may show that it is economically superior. Inflation should also be considered because future labor and material prices may rise. Depreciation matters when equipment is purchased and used over time. Sensitivity analysis is useful because it shows how much the result changes if key assumptions such as demand, labor rate, or material cost change. The engineering manager should therefore combine project control metrics like CPI and SPI with economic methods such as present worth, benefit-cost ratio, inflation adjustment, life-cycle cost, and break-even analysis. That combination supports better business decisions.
+	Life-cycle costing is especially important for sustainable infrastructure projects. Instead of evaluating only initial construction cost, life-cycle costing considers maintenance, operation, and long-term performance. For example, pervious pavement may cost more initially but reduce flooding damage and stormwater treatment costs over many years.
+  </p>
+
+  <p>
+	Finally, the concept of the “360 economy” emphasizes evaluating engineering projects from a complete system perspective. Instead of focusing only on direct financial return, engineers must also consider environmental impact, social benefit, infrastructure resilience, and long-term sustainability. For NJ GreenFlow, which focuses on stormwater management and green infrastructure design, this broader economic perspective is essential because infrastructure decisions influence communities, ecosystems, and municipal planning for decades.
   </p>
 
   <h2>Ranky-EM-7: Best Practice Pricing Strategies in Engineering Project Management</h2>
   <p>
-    Pricing is a strategic decision rather than only a cost calculation. Cost-plus pricing begins with estimated project cost and then adds profit margin. If total project cost is $80,000 and the firm wants a 20 percent markup, the selling price becomes $96,000. Value-based pricing is different because it depends on the benefit perceived by the customer. If the project saves the customer $500,000 in energy or operating cost, then a price of $100,000 may still be attractive even if internal cost is much lower. Competition-based pricing reacts to market conditions and competitor bids. Target cost pricing begins with the price that the market will tolerate and then forces the design and delivery method to fit within that cost. Negotiated pricing is common in long-term professional relationships where contract terms, shared risk, and future business all influence the final number. In my own company model, I would use cost-plus for small internal jobs with predictable scope, value-based pricing when the customer gains major measurable savings, and negotiated pricing when the project is part of a longer strategic client relationship.
+    At NJ GreenFlow Engineering Management, pricing strategy is connected directly to the type of sustainable infrastructure project being managed. Because our company focuses on stormwater management systems, flood resilience planning, regulatory coordination, and sustainable infrastructure solutions across New Jersey, pricing decisions must reflect both engineering effort and long-term public value. Our projects often include green roofs, pervious pavement systems, runoff reduction planning, and stakeholder coordination among municipalities and regulatory agencies. For that reason, pricing must account for engineering labor, environmental analysis, compliance requirements, and stakeholder coordination. Instead of relying on a single pricing method, NJ GreenFlow applies several strategies depending on project conditions and client needs.
   </p>
 
+  <h3>Cost-Plus Pricing</h3>
   <p>
-    Some companies do not provide transparency in their pricing process because detailed pricing may reveal profit margins, supplier rates, strategic assumptions, or negotiation limits. Some companies also do not know the true cost of their products because indirect costs are allocated poorly, labor tracking is weak, or scope changes are not measured accurately. The pricing review procedure should therefore examine labor hours, material estimates, indirect costs, risk allowance, contingency, market conditions, and scope assumptions before a bid is released. Dynamically changing costs should be managed through regular estimate updates, contingency review, escalation assumptions, supplier communication, and controlled scope management. If these controls are weak, a project may appear profitable at award but become unprofitable during execution.
+    Cost-plus pricing is used when project scope can be estimated reliably. For example, if NJ GreenFlow manages a municipal pervious pavement installation project, we may estimate engineering labor at $30,000, stakeholder coordination at $8,000, compliance documentation at $7,000, and overhead allocation at $10,000. This results in a total internal cost of $55,000. If the company applies a 20 percent profit margin, the final project price becomes $66,000. In our company model, cost-plus pricing is performed by carefully reviewing labor hours, reporting requirements, regulatory coordination, and contingency before applying the markup. This method ensures transparency and prevents underestimating complex coordination tasks that are common in infrastructure projects.
+  </p>
+
+  <h3>Value-Based Pricing</h3>
+  <p>
+    Value-based pricing is used when the project provides large long-term benefits to the client. For instance, if NJ GreenFlow designs and manages a green roof installation for a municipal facility, the engineering work might cost $50,000 internally. However, the project could reduce long-term drainage costs, improve building energy performance, and increase environmental compliance value. If the long-term benefit to the municipality is estimated to exceed $300,000, NJ GreenFlow may price the project at $85,000. In this case the price reflects the value delivered rather than only the engineering cost.
+  </p>
+
+  <h3>Competition-Based Pricing</h3>
+  <p>
+    Competition-based pricing occurs when multiple engineering management firms compete for the same project. For example, if a municipality issues a request for proposals for stormwater resilience planning and competing firms are expected to bid between $80,000 and $95,000, NJ GreenFlow may strategically submit a proposal around $85,000 if that price still covers internal cost and desired margin. This allows the company to remain competitive while maintaining project quality and financial stability.
+  </p>
+
+  <h3>Target Cost Pricing</h3>
+  <p>
+    Target cost pricing begins with the client's available budget and adjusts the project scope to fit that constraint. For example, if a municipality can only allocate $70,000 for a runoff reduction feasibility study, NJ GreenFlow would design the project scope around that limit. This might involve reducing the number of design alternatives studied or focusing analysis on the highest-impact drainage areas. In this case the price ceiling determines how the engineering work is structured.
+  </p>
+
+  <h3>Negotiated Pricing</h3>
+  <p>
+    Negotiated pricing is common when projects involve long-term collaboration between stakeholders. For instance, NJ GreenFlow may work with a municipality, engineering consultants, and environmental agencies on a phased resilience program. If the company estimates the work at $95,000 and the client budget is closer to $85,000, negotiation may result in a final agreement around $90,000 with certain optional services billed separately. This approach allows both sides to align expectations while maintaining project flexibility.
+  </p>
+
+  <h3>Aggressive Competitive Pricing Techniques</h3>
+  <p>
+    Aggressive pricing strategies may be used when NJ GreenFlow seeks to enter a new municipality or establish a long-term client relationship. For example, the company may reduce its profit margin on an early planning project in order to secure future implementation work. Another strategy may involve bundling services such as stakeholder coordination, schedule tracking, and compliance documentation into a single lower combined fee. These techniques increase the probability of winning strategic projects while still maintaining engineering quality and long-term business stability.
   </p>
 
   <h2>Ranky-EM-8: Best Practice Change Management in Engineering Project Management</h2>
   <p>
-    Change management is the structured method used to review, approve, reject, document, and implement change. Engineering projects almost never finish with zero change because requirements evolve, design issues appear, materials change, and stakeholder expectations shift. The important issue is not whether change occurs, but whether it is controlled and evaluated. A sound change process begins with the change request. Then the project team studies the impact on time, cost, scope, quality, and risk. After that, the request is approved or rejected by the proper authority, and if it is approved, the schedule and budget baselines are updated. This process is important because uncontrolled change, often called scope creep, is one of the most common reasons that projects lose control of schedule and budget.
+    At NJ GreenFlow Engineering Management, change management is treated as a structured engineering control process. Sustainable infrastructure projects rarely remain unchanged throughout their lifecycle because regulatory conditions, site information, stakeholder priorities, or environmental objectives may evolve. Our company therefore manages changes through a formal review process that evaluates how a proposed modification affects scope, schedule, cost, environmental impact, and compliance requirements. When a change request is submitted, the project team evaluates its technical justification and analyzes the consequences before deciding whether to approve or reject it.
+  </p>
+
+  <p>
+    Sustainable project management is an important part of this change process. Because NJ GreenFlow focuses on green infrastructure such as pervious pavement systems and green roofs, changes must also be evaluated in terms of environmental performance and long-term resilience. A modification that slightly increases construction cost may still be justified if it significantly improves runoff reduction, groundwater recharge, or long-term system reliability. For this reason our company evaluates both economic and environmental effects before implementing project changes.
+  </p>
+
+  <p>
+    Environmental impact assessment is also integrated into project decision making. NJ GreenFlow evaluates how infrastructure choices influence runoff volume, drainage system stress, water quality, and urban heat effects. For example, selecting pervious pavement instead of conventional pavement can increase groundwater recharge and reduce flooding risk during heavy rainfall events. These environmental performance indicators are reviewed whenever major project decisions or changes occur.
+  </p>
+
+  <p>
+    Product lifecycle assessment methods are also used in our company model. Instead of evaluating only initial installation cost, NJ GreenFlow compares alternatives based on long-term maintenance requirements, durability, environmental performance, and lifecycle operating cost. A sustainable infrastructure system must perform effectively for many years, so lifecycle evaluation helps ensure that the selected solution provides long-term environmental and economic value rather than only short-term savings.
   </p>
 
   <p class="diagram">
     <img src="change_control_flow.png" alt="Change Control Flow Visual">
   </p>
 
+  <h2>Ranky-EM-9: Best Practice Project Closeout in Engineering Project Management</h2>
   <p>
-    Sustainable green-focused project management should also be treated as part of change management and project decision making. A modern engineering project should not be judged only on whether it finishes. It should also be judged on environmental effect, waste generation, energy use, operating efficiency, and long-term sustainability. Product life-cycle assessment methods are useful because they examine the full life of the system, including raw materials, production, transportation, operation, maintenance, and disposal. In my own company model, I would compare alternatives not only by first cost but also by maintenance demand, energy consumption, replacement interval, and end-of-life impact. This leads to stronger engineering decisions because it treats the project as part of a larger system instead of an isolated short-term activity.
+    At NJ GreenFlow Engineering Management, project closeout is treated as a formal engineering control process rather than a simple ending point. Because our work focuses on sustainable stormwater infrastructure, flood resilience, regulatory compliance, and stakeholder coordination across New Jersey, closeout must confirm that technical, financial, and compliance objectives were actually met. Our best practice closeout process begins with verification that all deliverables have been completed, including design packages, inspection records, permit documentation, construction punch-list items, and stakeholder approvals. We then compare the final project results to the original scope, schedule, budget, and performance requirements. For example, if a pervious pavement system or green roof project was intended to reduce runoff volume and improve resilience, then the closeout must verify that the installed system meets those engineering and environmental objectives. We also finalize contracts, close out outstanding invoices, document change orders, archive meeting notes and reports, and collect lessons learned from designers, contractors, municipal representatives, and internal managers. In our company model, closeout is especially important because these projects often involve public stakeholders and compliance obligations, so incomplete records can create future liability. Therefore, our project closeout best practice is a structured final review that confirms technical acceptance, financial closure, regulatory completeness, and organizational learning.
   </p>
 
-  <h2>Ranky-EM-9, EM-10, EM-11, and EM-12: Project Closeout, Teamwork, Failure Prevention, and Project Presentations</h2>
+  <h2>Ranky-EM-10: Best Practice Project Teamwork in Engineering Project Management</h2>
   <p>
-    Best practice project closeout means more than saying that the work is done. It includes final acceptance of deliverables, closure of contracts, closure of charge numbers, archiving of records, and capture of lessons learned. This is important because future projects benefit from understanding what worked well and what created delay, cost growth, or confusion. Best practice project teamwork depends on communication, trust, role clarity, accountability, and consistent support from leadership. Best practice to avoid project failure includes realistic planning, regular schedule review, risk assessment, budget tracking, pricing review, and fast response to emerging problems. What can go wrong in project management includes unclear objectives, poor estimates, weak communication, resource conflict, stakeholder disagreement, late scope changes, weak risk management, and lack of management support. These are not random failures. They are usually symptoms of weak structure or weak control.
+    At NJ GreenFlow, project teamwork is based on interdisciplinary coordination because sustainable stormwater projects require civil, environmental, municipal, regulatory, and construction perspectives to work together. A green infrastructure project cannot succeed if each participant works in isolation. Our best practice is to organize teamwork around shared project goals, clear communication, defined roles, and regular decision checkpoints. We coordinate municipalities, agencies, designers, and contractors so that everyone understands the current scope, the schedule constraints, the compliance requirements, and the expected performance outcomes. In our company model, teamwork begins by defining who is responsible for technical design, who handles stakeholder communication, who tracks cost and schedule, and who monitors compliance. We then use scheduled status reviews to identify conflicts early, especially when project priorities differ between public agencies, municipal clients, and field contractors. Teamwork is also strengthened by making communication factual and documented instead of informal and unclear. Because our company deals with flood resilience and sustainable infrastructure, poor teamwork can lead to permitting delays, installation errors, or public dissatisfaction. For that reason, our best practice is to maintain disciplined coordination, mutual accountability, and a shared understanding of project success.
+  </p>
+
+  <h2>Ranky-EM-11: Best Practice to Avoid Project Failures in Engineering Project Management</h2>
+  <p>
+    At NJ GreenFlow Engineering Management, preventing project failure begins with strong planning and coordination. Because our projects involve sustainable stormwater infrastructure, regulatory compliance, and coordination among municipalities, contractors, and engineering specialists, failure often occurs when communication, scope definition, or cost control are weak. Our best practice is to clearly define project objectives early, align stakeholder expectations, and develop realistic schedules and budgets before work begins. Another important prevention strategy is risk identification and monitoring. Infrastructure projects can be affected by weather conditions, regulatory changes, site conditions, funding limitations, and contractor availability. NJ GreenFlow reduces these risks by reviewing potential issues during project planning and assigning responsibility for monitoring them during execution. Stakeholder coordination is also critical. Sustainable infrastructure projects often involve public agencies, municipal officials, engineers, and contractors. If communication between these parties breaks down, delays and cost increases can occur quickly. Our company therefore emphasizes regular progress meetings, documented decisions, and clear reporting procedures. Finally, strong schedule and budget monitoring helps detect problems early. NJ GreenFlow reviews project progress regularly, compares actual results to planned milestones, and adjusts resources or scope if deviations appear. By maintaining structured communication, realistic planning, and continuous monitoring, our company reduces the risk of major project failures and ensures that infrastructure projects meet their technical, environmental, and financial goals.
+  </p>
+
+  <h3>Best Practice for Time Management in Project Management</h3>
+  <p>
+    At NJ GreenFlow, time management is handled through structured planning, milestone tracking, and early response to slippage. In engineering project management, schedule control is critical because delays in one area often create secondary effects in procurement, permitting, inspections, funding, and contractor coordination. Our best practice is to build schedules around real dependencies instead of estimated guesses. For example, stormwater infrastructure work may depend on permit approvals, seasonal conditions, public coordination, utility review, and contractor availability. In our company model, we establish milestone dates for design completion, permit submissions, bid phases, field work, inspections, and final acceptance. We then monitor progress regularly and compare actual dates to planned dates. If one milestone starts slipping, we do not wait until the end of the project to respond. Instead, we review the cause, update the schedule, reassign resources if needed, and communicate changes to the affected stakeholders. Time management in our company is therefore a proactive system based on dependency awareness, milestone control, and rapid corrective action.
+  </p>
+
+  <h3>Best Practice for Budget Management in Project Management</h3>
+  <p>
+    At NJ GreenFlow, budget management is closely tied to risk control and lifecycle value. Our projects support resilient and sustainable infrastructure, so the best choice is not always the lowest first cost. A green stormwater solution may cost more initially but provide lower long-term maintenance cost, reduced runoff damage, and stronger compliance value. Our best practice is to establish a baseline budget early, monitor actual costs against that baseline, and track the effect of scope changes, schedule changes, and procurement conditions throughout the project. In our company model, budget management includes reviewing labor hours, consultant costs, contractor pricing, material costs, contingency use, and compliance-related expenses. We also use lifecycle cost analysis when comparing alternatives such as green roofs, bioswales, or pervious pavement systems, because a short-term low-cost option may create larger future operating or maintenance costs. Strong budget management in our company means that project funds are not only spent accurately, but spent in a way that supports long-term resilience and infrastructure performance.
+  </p>
+
+  <h3>Best Practice for the Pricing Review Procedure in Project Management</h3>
+  <p>
+    At NJ GreenFlow, the pricing review procedure is treated as a technical and managerial review, not just a financial check. Because our work involves municipalities, agencies, designers, and contractors, pricing must reflect labor requirements, permitting effort, reporting needs, risk exposure, field conditions, and long-term project goals. Our best practice is to review all cost assumptions before final pricing is accepted. In our company model, we examine direct labor, subcontractor costs, materials, indirect costs, contingency, schedule impacts, and compliance-related activities. We also review whether the price reflects the real complexity of coordinating multiple stakeholders and meeting environmental performance targets. For example, a project with strong NJDEP-related compliance demands may require more reporting and review effort than a simple installation project, and the pricing must reflect that work honestly. Our company performs pricing review by comparing scope to effort, validating assumptions, and checking whether the proposed cost supports both delivery quality and business sustainability.
+  </p>
+
+  <h3>Why Some Companies Do Not Provide Transparency in Their Pricing Process</h3>
+  <p>
+    Some companies do not provide transparency in their pricing process because detailed pricing can reveal internal profit margins, negotiation limits, overhead structure, supplier relationships, or strategic assumptions. In competitive markets, firms may believe that full pricing transparency weakens their negotiating position. Other companies avoid transparency because their cost systems are not strong enough to defend the numbers clearly. In some cases, management may fear that clients or partners will challenge markups, overhead allocations, or contingency levels if they can see how the price was built. For a company like NJ GreenFlow, which works in a multi-stakeholder environment, a reasonable level of transparency is valuable because trust and accountability are important. However, in the broader market, many firms still protect detailed pricing because they view it as commercially sensitive information.
+  </p>
+
+  <h3>Why Some Companies Do Not Know the True Cost of Their Products</h3>
+  <p>
+    Some companies do not know the true cost of their products because they do not measure indirect costs, labor effort, rework, schedule impacts, and change-related costs accurately enough. A product or project may appear profitable if only direct expenses are counted, while hidden overhead, coordination effort, compliance burden, and corrective work remain untracked. In engineering project management, this problem becomes more serious when multiple departments contribute to the work but nobody integrates the full cost picture. At NJ GreenFlow, this issue would be especially important because stormwater and resilience projects can include compliance tasks, stakeholder meetings, inspection support, and permit coordination that are easy to underestimate if cost tracking is weak. Companies lose cost accuracy when they fail to connect scope, staffing, time, and overhead in one system. As a result, they may know the bid price but not the true delivery cost.
+  </p>
+
+  <h3>How to Deal with Dynamically Changing Costs in Project Management</h3>
+  <p>
+    Dynamically changing costs should be managed through continuous monitoring, updated forecasting, change control, and contingency planning. Costs can change because of inflation, labor rate shifts, material shortages, regulatory changes, contractor market conditions, or scope revisions. In engineering management, the solution is not to ignore the changes but to build a control system that detects and responds to them. At NJ GreenFlow, this would mean reviewing cost status regularly, comparing actual versus planned costs, updating estimates when conditions change, and documenting the effect of every approved change on the budget baseline. Because our company works on infrastructure projects that may involve public stakeholders and compliance demands, dynamic costs must also be communicated clearly to affected parties. Good management of changing costs includes early procurement review, use of contingency reserves, revised forecasts, and formal approval of budget adjustments when justified. This keeps the project economically realistic rather than relying on outdated assumptions.
+  </p>
+
+  <h3>What Can Go Wrong in Project Management?</h3>
+  <p>
+    Many things can go wrong in project management if the system is weak. Scope may be poorly defined, causing confusion and rework. Stakeholders may not agree on priorities, which can delay decisions and create conflict. Schedules may be unrealistic, leading to milestone failures and rushed work. Budgets may be inaccurate if labor, compliance, or overhead costs were underestimated. Change may occur without control, producing scope creep and cost growth. Communication failures can cause design mistakes, field errors, or missed approvals. Regulatory requirements may be overlooked, which is especially dangerous for a company like NJ GreenFlow that works on infrastructure, compliance, and environmental performance. Contractor coordination may fail, inspections may be delayed, and project documentation may be incomplete at closeout. In general, project management fails when planning, communication, cost control, and stakeholder coordination are treated casually. The best defense is to manage the project as a complete system, which is exactly how NJ GreenFlow presents its company mission on the homepage.
+  </p>
+
+  <h2>Ranky-EM-12: Best Practice for Project Presentations in Engineering Project Management</h2>
+  <p>
+    At NJ GreenFlow, project presentations are treated as engineering communication tools rather than simple status summaries. Because our company coordinates municipalities, agencies, designers, contractors, and compliance stakeholders, presentations must help different audiences understand the same project from technical, managerial, environmental, and financial perspectives. A strong engineering project presentation should communicate purpose, scope, technical approach, schedule status, budget condition, risks, compliance issues, and expected sustainability outcomes in a structured and visual way. In our company model, best practice means that every presentation should clearly show what the project is, why it matters, what stage it is in, what decisions are needed, and what outcomes are expected.
   </p>
 
   <p>
-    Best practice for time management includes milestone tracking, understanding dependencies, maintaining realistic schedules, and responding quickly to slippage. Best practice for budget management includes baseline cost control, variance tracking, forecast updates, and disciplined approval of changes. Best practice for the pricing review procedure includes reviewing assumptions, labor rates, overhead, supplier costs, risk, and contract terms before work begins. Some companies do not provide transparency in pricing because of internal politics or market strategy, and some firms do not know the true cost of their products because cost systems are fragmented. This is why engineering project management must be analytical. A good project presentation should therefore include diagrams, schedules, formulas, risks, and economic reasoning. A project presentation is strongest when it shows not only what happened, but why it happened and what decision should follow from that information.
+    A best-practice NJ GreenFlow presentation would begin with the project purpose, such as reducing runoff, improving resilience, supporting compliance, or managing a stormwater retrofit. It would then show the project scope, the involved stakeholders, the major milestones, and the current performance status. Technical visuals such as work breakdown structures, Gantt charts, earned value summaries, pricing strategies, and change control diagrams are especially useful because they turn management concepts into engineering evidence. For sustainable stormwater projects, the presentation should also show environmental relevance, such as runoff reduction, infiltration improvement, or lifecycle performance benefit. In our company model, project presentations are performed with a focus on clarity, technical credibility, and decision support. The goal is not only to report information, but to help municipalities, agencies, and project partners make better engineering and management decisions.
+  </p>
+
+  <p>
+    Best practice also means adjusting the presentation style to the audience. Municipal stakeholders may need clearer policy and funding implications. Engineers may need more detail on scope, schedule logic, and design coordination. Contractors may need clear phasing and execution expectations. Regulators may need evidence of compliance alignment. Therefore, NJ GreenFlow presentations should be visually organized, professionally written, and supported by diagrams, data, and structured reasoning. A good project presentation in engineering management is successful when it improves understanding, supports action, and reduces confusion across all major stakeholders.
   </p>
 
   <h2>Conclusion</h2>
   <p>
-    In conclusion, engineering project management is best understood as a structured decision system for achieving technical and business objectives under constraint. The project manager must balance time, cost, scope, risk, stakeholder needs, environmental considerations, and long-term value while coordinating people from different functional backgrounds. The concepts discussed in this assignment, including the charter, plan, WBS, rolling wave planning, Gantt charts, risk management, stakeholder management, pricing strategies, earned value management, and engineering economics, all support that central goal. The most important lesson is that project management is not just a set of forms or meetings. It is a disciplined engineering process supported by logic, data, communication, and adaptability. A company that manages projects well is more likely to control risk, satisfy customers, improve financial performance, and create sustainable value over time.
+    Engineering project management is best understood as a structured decision system for achieving technical and business objectives under constraint. The project manager must balance time, cost, scope, risk, stakeholder needs, environmental considerations, and long-term value while coordinating people from different functional backgrounds. The concepts discussed in this assignment, including the charter, plan, WBS, rolling wave planning, Gantt charts, risk management, stakeholder management, pricing strategies, earned value management, and engineering economics, all support that central goal. The most important lesson is that project management is not just a set of forms or meetings. It is a disciplined engineering process supported by logic, data, communication, and adaptability. For companies such as NJ GreenFlow that focus on stormwater management and sustainable infrastructure design, structured project management ensures that engineering decisions support both environmental performance and long-term community resilience. Overall, a company that manages projects well is more likely to control risk, satisfy customers, improve financial performance, and create sustainable value over time.
   </p>
 
   <h2>References</h2>
   <p class="no-indent">
     Kerzner, Harold. <em>Project Management: A Systems Approach to Planning, Scheduling, and Controlling</em>. 12th ed., Wiley, 2017.<br><br>
     Ranky, Paul G. <em>Intro Project Management Multimedia eBook</em>, CIMware UK and USA.<br><br>
-    Student-created visuals may be prepared in Excel and Office Suite and inserted into this page as supporting technical illustrations.
+    Student-created visuals prepared in Excel, Office Suite, and Canva are inserted into this page as supporting technical illustrations.
   </p>
 
   <footer>
