@@ -10,7 +10,7 @@
 
     body {
       font-family: Arial, sans-serif;
-      background-color: #e6f2e6; /* soft green */
+      background-color: #e6f2e6;
       margin: 50px;
       color: #1f2a1f;
     }
@@ -37,6 +37,11 @@
       text-align: center;
       color: #2e7d32;
       font-size: 14px;
+      background: transparent;
+      border: none;
+      box-shadow: none;
+      padding: 0;
+      text-indent: 0;
     }
 
     nav {
@@ -55,16 +60,26 @@
       padding: 8px 12px;
       border-radius: 999px;
       font-size: 14px;
+      transition: background 0.25s ease, transform 0.25s ease;
     }
 
-    nav a:hover { background: #d6f2df; }
+    nav a:hover {
+      background: #d6f2df;
+      transform: translateY(-1px);
+    }
 
     h2 {
       color: #2e7d32;
       border-left: 6px solid #2ecc71;
       padding-left: 12px;
-      margin-top: 34px;
-      margin-bottom: 12px;
+      margin-top: 40px;
+      margin-bottom: 16px;
+    }
+
+    h3 {
+      color: #1b5e20;
+      margin-top: 24px;
+      margin-bottom: 10px;
     }
 
     p {
@@ -76,7 +91,11 @@
       text-align: justify;
       text-indent: 36px;
       line-height: 1.7;
-      margin: 0;
+      margin: 0 0 16px 0;
+    }
+
+    .no-indent {
+      text-indent: 0;
     }
 
     footer {
@@ -90,7 +109,7 @@
 
 <body>
   <header>
-    <h1>HW6 — Under Construction</h1>
+    <h1>Social Networking — Article Discussion Executive Summaries</h1>
     <p class="subtitle">IE492-452 — Dr. Ranky</p>
 
     <nav>
@@ -101,10 +120,109 @@
       <a href="hw3.html">HW3</a>
       <a href="hw4.html">HW4</a>
       <a href="hw5.html">HW5</a>
-	  <a href="socialnetworking.html">Social Networking<a/>
+      <a href="hw6.html">HW6</a>
+      <a href="socialnetworking.html">Social Networking</a>
     </nav>
   </header>
 
+  <h2>Introduction</h2>
+  <p>
+    This social networking section documents three technical article discussions completed for IE492 Engineering Management. The articles were reviewed and discussed by Abigail Dietz and Dayannara Vilcarino. The purpose of this section is to summarize current technical issues connected to engineering management, sustainability, technology, cybersecurity, and future project planning. Each executive summary explains the article topic, the main engineering issue, the discussion points, and how the topic relates to NJ GreenFlow Engineering Management.
+  </p>
+
+  <h2>Article 1: Former Citi Exec: Robots Will Soon Outnumber Human Employees</h2>
+  <p class="no-indent">
+    <strong>Student:</strong> Abigail Dietz<br>
+    <strong>Discussion Partner:</strong> Dayannara Vilcarino<br>
+    <strong>Company Application:</strong> NJ GreenFlow Engineering Management
+  </p>
+
+  <p>
+    This article discusses the increasing role of artificial intelligence and robotics in the workforce and presents the idea that robots may eventually outnumber human employees. The article explains that advancements in AI technology and decreasing costs are making automation more attractive for companies. A key point mentioned is that robots are becoming more efficient and cost-effective, to the point where they can replace human labor in certain tasks. For example, the article explains that a robot costing approximately $35,000 could pay for itself in about nine weeks if it replaced a worker earning $41 per hour. This shows why companies may be interested in automation from a cost and productivity perspective.
+  </p>
+
+  <p>
+    During my discussion with Dayannara Vilcarino, we focused on how this shift toward automation is not immediate but will likely occur gradually over the next few decades. We also discussed how current robots, such as autonomous vehicles, humanoid robots, and cleaning robots, are already being integrated into industries, but they are still limited in terms of flexibility, judgment, and decision-making. This means that while automation is increasing, human engineers and project managers are still necessary, especially for complex tasks that require technical reasoning and professional responsibility.
+  </p>
+
+  <p>
+    From an engineering management perspective, this article relates strongly to Industry 4.0 concepts, where automation, AI, and digital systems are integrated into engineering processes. The analytical reasoning behind this transition is based on cost-benefit analysis. Companies compare the cost of human labor with the cost of automation, and when automation becomes more efficient and less expensive, it becomes a more attractive option. This can be simplified as: if the cost of labor is greater than the cost of automation, then automation becomes favorable. This type of decision-making is important in engineering management because it affects staffing, scheduling, project planning, and long-term company strategy.
+  </p>
+
+  <p>
+    In the context of NJ GreenFlow, this trend toward automation could affect how stormwater and green infrastructure projects are designed and managed. For example, automated modeling tools, AI-based hydrologic analysis, drone inspections, and robotic construction equipment could improve efficiency and reduce labor costs. However, these systems would still require engineers to interpret results, ensure environmental compliance, and make design decisions. This means that automation may not fully replace engineers, but it will change their role by making them more focused on analysis, oversight, and decision-making rather than repetitive manual tasks.
+  </p>
+
+  <p>
+    My personal takeaway from this discussion is that automation will continue to grow, but engineering management must focus on integrating these technologies responsibly. Companies like NJ GreenFlow should prepare by adopting digital tools while also maintaining strong technical expertise and human review. This balance is important to make sure that projects remain efficient, accurate, environmentally responsible, and sustainable.
+  </p>
+
+  <h2>Article 2: High-Temperature Superconductors Could Redefine Data Center Power Density</h2>
+  <p class="no-indent">
+    <strong>Student:</strong> Abigail Dietz<br>
+    <strong>Discussion Partner:</strong> Dayannara Vilcarino<br>
+    <strong>Company Application:</strong> NJ GreenFlow Engineering Management
+  </p>
+
+  <p>
+    This article discusses how high-temperature superconductors could significantly improve power efficiency in data centers, especially as artificial intelligence systems continue to grow. The main issue presented is that current electrical infrastructure is struggling to keep up with the increasing energy demands of AI-driven data centers. Even with large investments in power grids, existing systems cannot always deliver the required energy efficiently because of transmission losses and capacity limitations.
+  </p>
+
+  <p>
+    A key technical concept discussed in the article is electrical resistance. Traditional materials such as copper and aluminum experience resistance as electricity flows through them, which leads to energy loss in the form of heat. The article explains that a portion of generated electricity is lost during transmission and distribution. High-temperature superconductors reduce this issue because they allow electricity to flow with almost no resistance when cooled to cryogenic temperatures. This means that power can be transmitted more efficiently and over longer distances with less loss.
+  </p>
+
+  <p>
+    During my discussion with Dayannara Vilcarino, we focused on how this technology could transform not only data centers but also broader infrastructure systems. We discussed how the ability to transmit power with little or no resistance could reduce energy waste and improve system performance. We also noted that although the technology is promising, it is still limited by cost, material availability, and the need for cooling systems. Because of this, widespread implementation may take time and would require careful engineering and economic analysis.
+  </p>
+
+  <p>
+    From an engineering management perspective, this article relates to system optimization and efficiency analysis. Engineers must evaluate whether new technologies provide enough benefit to justify their cost. This can be viewed as a trade-off between energy efficiency and implementation cost. A simplified relationship can be written as: net benefit equals energy savings minus implementation cost. If the reduction in energy loss and infrastructure requirements outweighs the cost of installing the system, then the technology becomes a practical solution.
+  </p>
+
+  <p>
+    In the context of NJ GreenFlow, this concept is relevant to sustainable infrastructure and environmental engineering. Although the article focuses on data centers, the same principles apply to stormwater and green infrastructure systems. Efficient energy use is directly related to sustainability. Pumping systems, monitoring equipment, sensors, treatment processes, and smart stormwater controls all rely on energy. Reducing energy loss and improving system efficiency would lower environmental impact and operational costs.
+  </p>
+
+  <p>
+    Another connection is the idea of increasing system density, which means delivering more performance within a smaller physical footprint. This is similar to how green infrastructure is designed to maximize stormwater performance within limited urban space. For example, bioswales, green roofs, and pervious pavement must often fit within constrained sites while still providing measurable environmental benefits. My takeaway from this article is that engineering management must consider both technological innovation and practical feasibility. For NJ GreenFlow, this reinforces the importance of integrating efficient and sustainable technologies into design while still considering cost, maintainability, and real-world performance.
+  </p>
+
+  <h2>Article 3: Microsoft: Critical Security Issue Found in Windows Notepad</h2>
+  <p class="no-indent">
+    <strong>Student:</strong> Abigail Dietz<br>
+    <strong>Discussion Partner:</strong> Dayannara Vilcarino<br>
+    <strong>Company Application:</strong> NJ GreenFlow Engineering Management
+  </p>
+
+  <p>
+    This article discusses a high-severity cybersecurity vulnerability found in the modern version of Windows Notepad. The issue, identified as CVE-2026-20841, could allow remote code execution if a user opens a malicious Markdown file and clicks a specially crafted link. While Notepad is traditionally considered a simple and safe application, the article explains that recent updates, such as Markdown support and clickable links, have increased its complexity and created new security risks.
+  </p>
+
+  <p>
+    A key technical concept presented in the article is attack surface expansion. As software evolves and gains new features, the number of potential entry points for security vulnerabilities increases. Traditional Notepad mainly displayed plain text, but the addition of interactive features introduced new risks related to improper handling of links and protocols. This highlights an important engineering principle: increased functionality often leads to increased system complexity, and that complexity must be carefully managed through testing, validation, and security review.
+  </p>
+
+  <p>
+    During my discussion with Dayannara Vilcarino, we focused on how this issue demonstrates the importance of risk analysis and system validation in engineering management. We discussed how even simple tools can become vulnerable if they are modified without thorough testing and security evaluation. We also noted that this vulnerability requires user interaction, meaning that human behavior plays a role in system security. This connects engineering management with both technical design and user awareness.
+  </p>
+
+  <p>
+    From an analytical perspective, this problem can be viewed as a risk model where risk depends on both system vulnerability and user behavior. A simple relationship is: risk equals probability of exploit multiplied by impact severity. In this case, the probability of exploitation depends on whether a user opens a malicious file and interacts with it, while the impact depends on the level of system access gained. This kind of analysis is important in engineering management because it helps prioritize which risks need to be addressed first.
+  </p>
+
+  <p>
+    In the context of NJ GreenFlow, this article is relevant to digital engineering systems used in stormwater design and infrastructure planning. Engineers rely on software tools such as modeling programs, CAD systems, GIS data, and project document platforms. If these systems are compromised, it could affect project data, design accuracy, client trust, and overall project reliability. This shows that cybersecurity is not only an IT issue but also an engineering management issue.
+  </p>
+
+  <p>
+    The article also reinforces the importance of least-privilege access. Limiting user permissions reduces the potential damage if a security incident occurs. For example, if a project workstation is compromised but the user does not have administrative privileges, the damage may be limited. My takeaway from this article is that engineering management must consider cybersecurity as part of system design, project planning, and daily project operations. For NJ GreenFlow, this means keeping software updated, monitoring digital systems, training users to avoid suspicious files, and balancing functionality with security.
+  </p>
+
+  <h2>Conclusion</h2>
+  <p>
+    Overall, these three articles show how engineering management is connected to current technology trends in automation, energy infrastructure, and cybersecurity. The discussion with Dayannara Vilcarino helped connect each article to practical engineering applications. For NJ GreenFlow, the main lesson is that modern engineering companies must adapt to new technologies while still using careful analysis, risk evaluation, and sustainability-focused decision-making. Whether the issue is robotics, energy efficiency, or cybersecurity, engineering managers must evaluate both benefits and risks before applying new technology in real projects.
+  </p>
 
   <footer>
     © 2026 — Abigail Dietz
